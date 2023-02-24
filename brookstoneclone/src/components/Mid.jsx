@@ -10,6 +10,7 @@ function Mid() {
     width: "75%",
     margin: "auto",
   };
+
   const data = [
     {
       text: "Audio",
@@ -72,9 +73,7 @@ function Mid() {
   return (
     <Box className="mid-container" mb='100px'   >
       <Box mb="40px" className="p1">
-        <Box>
-          <WithSubnavigation />
-        </Box>
+        
         <Box
           display="flex"
           // border="1px solid red"

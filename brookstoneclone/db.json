@@ -1,32 +1,279 @@
 {
-  "posts": [
+  "massage": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode",
-      "url": "https://cdn.shopify.com/s/files/1/0262/2226/4423/files/newyearbanner-4_2400x.png?v=1672417750"
+      "title": "Brookstone Mach IX Massage Chair",
+      "price": "$7,999.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://www.lixo.in/wp-content/uploads/2022/04/Overview-Ll5577.jpg"
     },
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode",
-      "url": "https://cdn.shopify.com/s/files/1/0262/2226/4423/files/gun1_2400x.png?v=1676812714"
+      "id": 2,
+      "title": "Titan Elite 3D Massage Chair",
+      "price": "$7,999.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://www.lixo.in/wp-content/uploads/2021/11/13-3.jpg"
     },
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode",
-      "url": "https://cdn.shopify.com/s/files/1/0262/2226/4423/files/newyearbanner-4_2400x.png?v=1672417750"
+      "id": 3,
+      "title": "3D Massage Chair",
+      "price": "$4999",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://robocura.scaleupyourbrand.com/wp-content/uploads/2021/01/Untitled-design-61.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Osaki Pro 4D Soho II Massage Chair",
+      "price": "$2,799",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://ii1.pepperfry.com/media/catalog/product/t/r/568x625/tranquil-massage-chair-in-brown-finish-by--home-tranquil-massage-chair-in-brown-finish-by--home-pwf6ep.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Osaki Katana Massage Gaming Chair",
+      "price": "$459",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://www.bhphotovideo.com/images/images2500x2500/osaki_katana_massage_gaming_chair_black_katana_massage_gaming_chair_1720258.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Brookstone Mach IX Massage Chair",
+      "price": "$7,999.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://www.lixo.in/wp-content/uploads/2022/04/Overview-Ll5577.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Titan Elite 3D Massage Chair",
+      "price": "$7,999.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://www.lixo.in/wp-content/uploads/2021/11/13-3.jpg"
+    },
+    {
+      "id": 8,
+      "title": "3D Massage Chair",
+      "price": "$4999",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://robocura.scaleupyourbrand.com/wp-content/uploads/2021/01/Untitled-design-61.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Osaki Pro 4D Soho II Massage Chair",
+      "price": "$2,799",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://ii1.pepperfry.com/media/catalog/product/t/r/568x625/tranquil-massage-chair-in-brown-finish-by--home-tranquil-massage-chair-in-brown-finish-by--home-pwf6ep.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Osaki Katana Massage Gaming Chair",
+      "price": "$459",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://www.bhphotovideo.com/images/images2500x2500/osaki_katana_massage_gaming_chair_black_katana_massage_gaming_chair_1720258.jpg"
     }
+    
   ],
-  "comments": [
+  "wellness": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "Body Drier",
+      "price": "$349.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://www.absolutemobility.co.uk/wp-content/uploads/2015/12/Body-Dryer-scaled.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Clear Shower XL Crystal Clear Rainfall Shower Head",
+      "price": "$159.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/J0-2HOM-K744_clear_8_800x.jpg?v=1660657744g"
+    },
+    {
+      "id": 3,
+      "title": "Shower Power: Hydropowered Shower Speaker",
+      "price": "$99",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://media.wired.com/photos/6377ddcb904dfe16e8667611/master/w_1600%2Cc_limit/Shower-Power-Pro-in-showerhead-SOURCE-Ampere-Gear.jpg"
+    },
+    {
+      "id": 4,
+      "title": "HoMedics Bubble Spa Elite Footbath with Heat Boost",
+      "price": "$59.99",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://cdn11.bigcommerce.com/s-kxy2hypl1o/images/stencil/1280x1280/products/170/568/fb-450h-2__73366.1616096766.jpg?c=1"
+    },
+    {
+      "id": 5,
+      "title": "Opus Body Body Brush",
+      "price": "$159",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "http://cdn.shopify.com/s/files/1/1781/8145/products/nionbodyoverall_800x.jpg?v=1494138545"
+    },
+    {
+      "id": 6,
+      "title": "Body Drier",
+      "price": "$349.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://www.absolutemobility.co.uk/wp-content/uploads/2015/12/Body-Dryer-scaled.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Clear Shower XL Crystal Clear Rainfall Shower Head",
+      "price": "$159.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/J0-2HOM-K744_clear_8_800x.jpg?v=1660657744g"
+    },
+    {
+      "id": 8,
+      "title": "Shower Power: Hydropowered Shower Speaker",
+      "price": "$99",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://media.wired.com/photos/6377ddcb904dfe16e8667611/master/w_1600%2Cc_limit/Shower-Power-Pro-in-showerhead-SOURCE-Ampere-Gear.jpg"
+    },
+    {
+      "id": 9,
+      "title": "HoMedics Bubble Spa Elite Footbath with Heat Boost",
+      "price": "$59.99",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://cdn11.bigcommerce.com/s-kxy2hypl1o/images/stencil/1280x1280/products/170/568/fb-450h-2__73366.1616096766.jpg?c=1"
+    },
+    {
+      "id": 10,
+      "title": "Opus Body Body Brush",
+      "price": "$159",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "http://cdn.shopify.com/s/files/1/1781/8145/products/nionbodyoverall_800x.jpg?v=1494138545"
+    },
+    {
+      "id": 11,
+      "title": "Body Drier",
+      "price": "$349.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://www.absolutemobility.co.uk/wp-content/uploads/2015/12/Body-Dryer-scaled.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Clear Shower XL Crystal Clear Rainfall Shower Head",
+      "price": "$159.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/J0-2HOM-K744_clear_8_800x.jpg?v=1660657744g"
+    },
+    {
+      "id": 13,
+      "title": "Shower Power: Hydropowered Shower Speaker",
+      "price": "$99",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://media.wired.com/photos/6377ddcb904dfe16e8667611/master/w_1600%2Cc_limit/Shower-Power-Pro-in-showerhead-SOURCE-Ampere-Gear.jpg"
+    },
+    {
+      "id": 14,
+      "title": "HoMedics Bubble Spa Elite Footbath with Heat Boost",
+      "price": "$59.99",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://cdn11.bigcommerce.com/s-kxy2hypl1o/images/stencil/1280x1280/products/170/568/fb-450h-2__73366.1616096766.jpg?c=1"
+    },
+    {
+      "id": 15,
+      "title": "Opus Body Body Brush",
+      "price": "$159",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "http://cdn.shopify.com/s/files/1/1781/8145/products/nionbodyoverall_800x.jpg?v=1494138545"
     }
+    
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "sleep": [
+    {
+      "id": 1,
+      "title": "Avana Kind Bed Orthopedic Support Wedge Pillow Comfort System",
+      "price": "$180.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://i5.walmartimages.com/asr/9456260a-3515-4138-ac0d-c6ab4cf7b809.a04aae739eb4452a39c856bf113e746d.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff"
+    },{
+      "id": 2,
+      "title": "Yana Sleep Pillow",
+      "price": "$320.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "http://cdn.shopify.com/s/files/1/0235/2060/8352/products/yana_vert_inches_1200x1200.png?v=1638664259"
+    },{
+      "id": 3,
+      "title": "Avana Memory Foam Bed Wedge Pillow with Removable Bamboo Cover",
+      "price": "$150.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://images-cdn.ubuy.co.in/633b52863cf38a49c26673c7-ubuy-online-shopping.jpg"
+    },{
+      "id": 4,
+      "title": "Liberator Flip Ramp Intimate Positioning Pillow",
+      "price": "$180.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://m.media-amazon.com/images/I/71K494EH0CL._SL1500_.jpg"
+    },{
+      "id": 5,
+      "title": "Doctor Pillow SEPOVEDA Bed Sleep Pillow",
+      "price": "$180.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/bk3513_1_800x.jpg?v=1666378523"
+    },
+    {
+      "id": 6,
+      "title": "Avana Kind Bed Orthopedic Support Wedge Pillow Comfort System",
+      "price": "$180.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://i5.walmartimages.com/asr/9456260a-3515-4138-ac0d-c6ab4cf7b809.a04aae739eb4452a39c856bf113e746d.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff"
+    },{
+      "id": 7,
+      "title": "Yana Sleep Pillow",
+      "price": "$320.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "http://cdn.shopify.com/s/files/1/0235/2060/8352/products/yana_vert_inches_1200x1200.png?v=1638664259"
+    },{
+      "id": 8,
+      "title": "Avana Memory Foam Bed Wedge Pillow with Removable Bamboo Cover",
+      "price": "$150.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://images-cdn.ubuy.co.in/633b52863cf38a49c26673c7-ubuy-online-shopping.jpg"
+    },{
+      "id": 9,
+      "title": "Liberator Flip Ramp Intimate Positioning Pillow",
+      "price": "$180.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://m.media-amazon.com/images/I/71K494EH0CL._SL1500_.jpg"
+    },{
+      "id": 10,
+      "title": "Doctor Pillow SEPOVEDA Bed Sleep Pillow",
+      "price": "$180.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/bk3513_1_800x.jpg?v=1666378523"
+    },
+    {
+      "id": 11,
+      "title": "Avana Kind Bed Orthopedic Support Wedge Pillow Comfort System",
+      "price": "$180.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://i5.walmartimages.com/asr/9456260a-3515-4138-ac0d-c6ab4cf7b809.a04aae739eb4452a39c856bf113e746d.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff"
+    },{
+      "id": 12,
+      "title": "Yana Sleep Pillow",
+      "price": "$320.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "http://cdn.shopify.com/s/files/1/0235/2060/8352/products/yana_vert_inches_1200x1200.png?v=1638664259"
+    },{
+      "id": 13,
+      "title": "Avana Memory Foam Bed Wedge Pillow with Removable Bamboo Cover",
+      "price": "$150.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://images-cdn.ubuy.co.in/633b52863cf38a49c26673c7-ubuy-online-shopping.jpg"
+    },{
+      "id": 14,
+      "title": "Liberator Flip Ramp Intimate Positioning Pillow",
+      "price": "$180.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://m.media-amazon.com/images/I/71K494EH0CL._SL1500_.jpg"
+    },{
+      "id": 15,
+      "title": "Doctor Pillow SEPOVEDA Bed Sleep Pillow",
+      "price": "$180.00",
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/bk3513_1_800x.jpg?v=1666378523"
+    }
+  ]
+   
 }
