@@ -222,10 +222,11 @@ import {
   const NAV_ITEMS: Array<NavItem> = [
     {
       label: 'Massage',
+      
       children: [
         {
           label: 'Massage Chairs',
-          href: 'https://www.brookstone.com/collections/massage-chairs',
+          href: '/massage',
         },
         {
           label: 'Eye',
@@ -255,7 +256,7 @@ import {
         {
           label: 'Bath',
           
-          href: 'https://www.brookstone.com/collections/bathroom',
+          href: '/wellness',
         },
         {
           label: 'Cold & Heat Therapy',
@@ -285,7 +286,7 @@ import {
       children:[
         {
           label:'Air Quality',
-          href: 'https://www.brookstone.com/collections/air-quality-sanitization'
+          href: '/sleep'
         },
         {
           label:'Alarms',
@@ -293,7 +294,7 @@ import {
         },
         {
           label:'Intimate Pillows',
-          href: 'https://www.brookstone.com/collections/intimate-pillows'
+          href: '/sleep'
         },
         {
           label:'View All',

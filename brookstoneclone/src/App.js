@@ -1,13 +1,15 @@
+import AllRoutes from './AllRoutes/AllRoutes';
 import './App.css';
 import Footer from './components/Footer.tsx';
-import Mid from './components/Mid';
 import Navbar from './components/Navbar';
+import WithSubnavigation from './components/WithSubnavigation';
 
 function App() {
   return (
     <div >
       <Navbar/>
-      <Mid/>
+      <WithSubnavigation/>
+      <AllRoutes/>
       <Footer/>
     </div>
   );
