@@ -14,10 +14,12 @@ import { SearchIcon } from "@chakra-ui/icons";
 import { NavLink } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../context/AuthContextProvider";
+import WithSubnavigation from "./WithSubnavigation";
 
-function Navbar() {
+function Navbar({handleSearch}) {
   const{isAuth} = useContext(AuthContext)
-  return (
+  
+  return <>
     <Box
       h="20"
       display="flex"
@@ -33,6 +35,10 @@ function Navbar() {
 
       <InputGroup w={"550px"}>
         <Input
+        onChange={(e)=>{
+          e.preventDefault()
+          handleSearch(e.target.value)
+        }}
           placeholder="Search"
           color="grey.100"
           bg="white"
@@ -61,7 +67,11 @@ function Navbar() {
           isAuth? `Logged In`  :'No'
         }
       </Box>
+   
+      
     </Box>
-  );
+      <WithSubnavigation/>
+</>
+  
 }
 export default Navbar;

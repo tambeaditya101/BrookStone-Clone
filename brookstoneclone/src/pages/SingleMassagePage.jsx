@@ -22,6 +22,7 @@ import {
   } from '@chakra-ui/react';
   import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
   import { MdLocalShipping } from 'react-icons/md';
+import { NavLink } from "react-router-dom";
   
 const getData = (url) => {
   return fetch(url).then((res) => res.json());
@@ -46,6 +47,9 @@ const SingleMassagePage = () => {
     fetchedData();
   }, []);
 
+  const handleCart=()=>{
+
+  }
   return  (
     <Container mt='20px' mb='50px' boxShadow='rgba(0, 0, 0, 0.24) 0px 3px 8px' maxW={'7xl'}>
       <SimpleGrid
@@ -184,8 +188,10 @@ const SingleMassagePage = () => {
               </List>
             </Box>
           </Stack>
-
+            <NavLink to='/cart'>
           <Button
+          onClick={handleCart}
+          
             rounded={'none'}
             w={'full'}
             mt={8}
@@ -200,6 +206,7 @@ const SingleMassagePage = () => {
             }}>
             Add to cart
           </Button>
+          </NavLink>
 
           <Stack direction="row" alignItems="center" justifyContent={'center'}>
             <MdLocalShipping />
