@@ -26,7 +26,7 @@ import {
 const getData = (url) => {
   return fetch(url).then((res) => res.json());
 };
-const SingleMassagePage = () => {
+const SingleSleepPage = () => {
   const [massage, setMassage] = useState({});
   const [loading, setLoading] = useState(false);
   const { id } = useParams();
@@ -212,4 +212,4 @@ const SingleMassagePage = () => {
 }
 
 
-export default SingleMassagePage;
+export default SingleSleepPage;
