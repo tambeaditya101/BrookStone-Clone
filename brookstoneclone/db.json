@@ -69,8 +69,13 @@
       "price": 459,
       "del": "White Glove Delivery 4-5 Weeks",
       "url": "https://www.bhphotovideo.com/images/images2500x2500/osaki_katana_massage_gaming_chair_black_katana_massage_gaming_chair_1720258.jpg"
+    },
+    {
+      "title": "thehj",
+      "price": "134",
+      "url": "de",
+      "id": 11
     }
-    
   ],
   "wellness": [
     {
@@ -178,7 +183,6 @@
       "del": "White Glove Delivery 4-5 Weeks",
       "url": "http://cdn.shopify.com/s/files/1/1781/8145/products/nionbodyoverall_800x.jpg?v=1494138545"
     }
-    
   ],
   "sleep": [
     {
@@ -187,56 +191,64 @@
       "price": 180,
       "del": "White Glove Delivery 4-5 Weeks",
       "url": "https://i5.walmartimages.com/asr/9456260a-3515-4138-ac0d-c6ab4cf7b809.a04aae739eb4452a39c856bf113e746d.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff"
-    },{
+    },
+    {
       "id": 2,
       "title": "Yana Sleep Pillow",
-      "price": 320,
+      "price": 390,
       "del": "White Glove Delivery 4-5 Weeks",
       "url": "http://cdn.shopify.com/s/files/1/0235/2060/8352/products/yana_vert_inches_1200x1200.png?v=1638664259"
-    },{
+    },
+    {
       "id": 3,
       "title": "Avana Memory Foam Bed Wedge Pillow with Removable Bamboo Cover",
       "price": 150,
       "del": "White Glove Delivery 4-5 Weeks",
       "url": "https://images-cdn.ubuy.co.in/633b52863cf38a49c26673c7-ubuy-online-shopping.jpg"
-    },{
+    },
+    {
       "id": 4,
       "title": "Liberator Flip Ramp Intimate Positioning Pillow",
-      "price": 180,
+      "price": 1560,
       "del": "White Glove Delivery 4-5 Weeks",
       "url": "https://m.media-amazon.com/images/I/71K494EH0CL._SL1500_.jpg"
-    },{
+    },
+    {
       "id": 5,
       "title": "Doctor Pillow SEPOVEDA Bed Sleep Pillow",
-      "price": 180,
+      "price": 18,
       "del": "White Glove Delivery 4-5 Weeks",
       "url": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/bk3513_1_800x.jpg?v=1666378523"
     },
     {
       "id": 6,
       "title": "Avana Kind Bed Orthopedic Support Wedge Pillow Comfort System",
-      "price": 180,
+      "price": 1840,
       "del": "White Glove Delivery 4-5 Weeks",
       "url": "https://i5.walmartimages.com/asr/9456260a-3515-4138-ac0d-c6ab4cf7b809.a04aae739eb4452a39c856bf113e746d.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff"
-    },{
+    },
+    {
       "id": 7,
       "title": "Yana Sleep Pillow",
       "price": 320,
       "del": "White Glove Delivery 4-5 Weeks",
       "url": "http://cdn.shopify.com/s/files/1/0235/2060/8352/products/yana_vert_inches_1200x1200.png?v=1638664259"
-    },{
+    },
+    {
       "id": 8,
       "title": "Avana Memory Foam Bed Wedge Pillow with Removable Bamboo Cover",
       "price": 150,
       "del": "White Glove Delivery 4-5 Weeks",
       "url": "https://images-cdn.ubuy.co.in/633b52863cf38a49c26673c7-ubuy-online-shopping.jpg"
-    },{
+    },
+    {
       "id": 9,
       "title": "Liberator Flip Ramp Intimate Positioning Pillow",
-      "price": 180,
+      "price": 1807,
       "del": "White Glove Delivery 4-5 Weeks",
       "url": "https://m.media-amazon.com/images/I/71K494EH0CL._SL1500_.jpg"
-    },{
+    },
+    {
       "id": 10,
       "title": "Doctor Pillow SEPOVEDA Bed Sleep Pillow",
       "price": 180,
@@ -246,34 +258,60 @@
     {
       "id": 11,
       "title": "Avana Kind Bed Orthopedic Support Wedge Pillow Comfort System",
-      "price": 180,
+      "price": 160,
       "del": "White Glove Delivery 4-5 Weeks",
       "url": "https://i5.walmartimages.com/asr/9456260a-3515-4138-ac0d-c6ab4cf7b809.a04aae739eb4452a39c856bf113e746d.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff"
-    },{
+    },
+    {
       "id": 12,
       "title": "Yana Sleep Pillow",
       "price": 320,
       "del": "White Glove Delivery 4-5 Weeks",
       "url": "http://cdn.shopify.com/s/files/1/0235/2060/8352/products/yana_vert_inches_1200x1200.png?v=1638664259"
-    },{
+    },
+    {
       "id": 13,
       "title": "Avana Memory Foam Bed Wedge Pillow with Removable Bamboo Cover",
       "price": 150,
       "del": "White Glove Delivery 4-5 Weeks",
       "url": "https://images-cdn.ubuy.co.in/633b52863cf38a49c26673c7-ubuy-online-shopping.jpg"
-    },{
+    },
+    {
       "id": 14,
       "title": "Liberator Flip Ramp Intimate Positioning Pillow",
       "price": 180,
       "del": "White Glove Delivery 4-5 Weeks",
       "url": "https://m.media-amazon.com/images/I/71K494EH0CL._SL1500_.jpg"
-    },{
+    },
+    {
       "id": 15,
       "title": "Doctor Pillow SEPOVEDA Bed Sleep Pillow",
       "price": 180,
       "del": "White Glove Delivery 4-5 Weeks",
       "url": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/bk3513_1_800x.jpg?v=1666378523"
     }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "title": "Brookstone Mach IX Massage Chair",
+      "price": 7999,
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://www.lixo.in/wp-content/uploads/2022/04/Overview-Ll5577.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Titan Elite 3D Massage Chair",
+      "price": 6999,
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://www.lixo.in/wp-content/uploads/2021/11/13-3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "HoMedics Bubble Spa Elite Footbath with Heat Boost",
+      "price": 59.99,
+      "del": "White Glove Delivery 4-5 Weeks",
+      "url": "https://cdn11.bigcommerce.com/s-kxy2hypl1o/images/stencil/1280x1280/products/170/568/fb-450h-2__73366.1616096766.jpg?c=1"
+    }
   ]
-   
 }

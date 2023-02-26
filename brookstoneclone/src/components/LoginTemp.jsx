@@ -39,11 +39,11 @@ import { AuthContext } from '../context/AuthContextProvider';
             <Stack spacing={4}>
               <FormControl id="email">
                 <FormLabel>Email address</FormLabel>
-                <Input type="email" />
+                <Input value='aditya@gmail.com' type="email" />
               </FormControl>
               <FormControl id="password">
                 <FormLabel>Password</FormLabel>
-                <Input type="password" />
+                <Input value='123' type="password" />
               </FormControl>
               <Stack spacing={10}>
                 <Stack

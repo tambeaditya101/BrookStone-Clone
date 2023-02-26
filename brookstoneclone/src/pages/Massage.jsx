@@ -87,14 +87,15 @@ const Massage = () => {
       <Box
         className="container"
         display="flex"
-        justifyContent="space-between"
-        border="1px solid black"
+        justifyContent="space-evenly"
+        boxShadow='rgba(100, 100, 111, 0.2) 0px 7px 29px 0px'
         w="85%"
         margin="auto"
         mt="30px"
+        p='20px'
       >
-        <Box className="left-cont" w="20%">
-           <Center>SORT BY PRICE</Center> 
+        <Box className="left-cont" w="20%" h='250px' p='20px' boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px" >
+           <Center fontWeight='bold' >SORT BY PRICE</Center> 
            <Center>
           <Select
             variant="filled"
@@ -123,7 +124,7 @@ const Massage = () => {
               >
                 <Image w="350px" src={i.url} />
                 <Text>{i.title}</Text>
-                <Text>{i.price}</Text>
+                <Text>₹ {i.price}</Text>
                 <Text color="green">{i.del}</Text>
               </Box>
             </NavLink>

@@ -48,7 +48,17 @@ const SingleMassagePage = () => {
   }, []);
 
   const handleCart=()=>{
-
+    fetch(`http://localhost:8080/cart`,{
+      method: 'POST',
+      headers: {
+          'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(massage)
+  }).then((res)=>{
+       res.json();
+       alert("Item added Successfully")
+      } ).catch((err)=> alert('Enter Valid Category'))
+      
   }
   return  (
     <Container mt='20px' mb='50px' boxShadow='rgba(0, 0, 0, 0.24) 0px 3px 8px' maxW={'7xl'}>
@@ -81,7 +91,7 @@ const SingleMassagePage = () => {
               color={useColorModeValue('gray.900', 'gray.400')}
               fontWeight={300}
               fontSize={'2xl'}>
-              {massage.price}
+              ₹ {massage.price}
             </Text>
           </Box>
 
@@ -188,10 +198,9 @@ const SingleMassagePage = () => {
               </List>
             </Box>
           </Stack>
-            <NavLink to='/cart'>
+            
           <Button
           onClick={handleCart}
-          
             rounded={'none'}
             w={'full'}
             mt={8}
@@ -206,7 +215,7 @@ const SingleMassagePage = () => {
             }}>
             Add to cart
           </Button>
-          </NavLink>
+          
 
           <Stack direction="row" alignItems="center" justifyContent={'center'}>
             <MdLocalShipping />
