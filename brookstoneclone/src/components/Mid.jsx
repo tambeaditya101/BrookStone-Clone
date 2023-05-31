@@ -71,9 +71,8 @@ function Mid() {
   };
 
   return (
-    <Box className="mid-container" mb='100px'   >
+    <Box className="mid-container" mb="100px">
       <Box mb="40px" className="p1">
-        
         <Box
           display="flex"
           // border="1px solid red"
@@ -88,16 +87,19 @@ function Mid() {
           </Box>
           <Box display="flex" flexDirection="column" gap="30px">
             <Box>
-              <Image
-                w="100%"
-                src="https://cdn.shopify.com/s/files/1/0262/2226/4423/files/osaki-greatdeals2_2400x.png?v=1670241153"
-              />
+              <a href="/wellness">
+                <Image
+                  w="100%"
+                  src="https://cdn.shopify.com/s/files/1/0262/2226/4423/files/osaki-greatdeals2_2400x.png?v=1670241153"
+                />
+              </a>
             </Box>
             <Box display="flex" justifyContent="space-between">
               <Image
                 w="46%"
                 src="https://cdn.shopify.com/s/files/1/0262/2226/4423/files/newarrivals125_413483c9-b544-47ca-bcf7-16795dc38950_2400x.png?v=1670241694"
               />
+
               <Image
                 w="46%"
                 src="https://cdn.shopify.com/s/files/1/0262/2226/4423/files/bestsellers125_2400x.png?v=1670241724"
@@ -132,7 +134,10 @@ function Mid() {
             gap="60px"
           >
             {data.map((item) => (
-              <Cards imga={item.img} text={item.text} />
+              <a href="/massage">
+                {" "}
+                <Cards imga={item.img} text={item.text} />
+              </a>
             ))}
           </Box>
         </Center>

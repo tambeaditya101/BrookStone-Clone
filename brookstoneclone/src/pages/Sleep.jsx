@@ -7,6 +7,7 @@ import { Spinner } from "@chakra-ui/spinner";
 import { NavLink, useSearchParams } from "react-router-dom";
 import Pagination from "../components/Pagination";
 import { Select } from "@chakra-ui/select";
+let baseURL = `https://brookstone-data.onrender.com`;
 
 // const getData = (url) => {
 //   return fetch(url).then(
@@ -25,20 +26,18 @@ const getCurrentPage = (page) => {
 const Sleep = () => {
   const [massage, setMassage] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [params, setParams] = useSearchParams()
+  const [params, setParams] = useSearchParams();
   const [page, setPage] = useState(getCurrentPage(params.get("page")));
   const [total, setTotal] = useState(1);
-  
-  const [order, setOrder] = useState("");
-  let url=''
-  if (order) {
-    url = ` http://localhost:8080/sleep?_limit=4&_page=${page}&_sort=price&_order=${order}`;
-  }
-  else{
-     url = ` http://localhost:8080/sleep?_limit=4&_page=${page}`;
 
+  const [order, setOrder] = useState("");
+  let url = "";
+  if (order) {
+    url = `${baseURL}/sleep?_limit=6&_page=${page}&_sort=price&_order=${order}`;
+  } else {
+    url = `${baseURL}/sleep?_limit=6&_page=${page}`;
   }
-  
+
   const handleChange = (val) => {
     const updated = val + page;
     setPage(updated);
@@ -47,9 +46,9 @@ const Sleep = () => {
     setLoading(true);
 
     try {
-      const getData = await fetch(url)
-      setTotal(getData.headers.get('X-Total-Count'))
-      console.log(getData.headers.get('X-Total-Count'));
+      const getData = await fetch(url);
+      setTotal(getData.headers.get("X-Total-Count"));
+      console.log(getData.headers.get("X-Total-Count"));
       const data = await getData.json();
       setMassage(data);
       setLoading(false);
@@ -63,18 +62,17 @@ const Sleep = () => {
   };
   useEffect(() => {
     fetchedData(url);
-  }, [page,order]);
+  }, [page, order]);
 
-useEffect(()=>{
-  let obj = {page}
-  if(order){
-     obj.order = order
-  }
-  else{
-    obj = {page}
-  }
-  setParams(obj)
-},[page,order])
+  useEffect(() => {
+    let obj = { page };
+    if (order) {
+      obj.order = order;
+    } else {
+      obj = { page };
+    }
+    setParams(obj);
+  }, [page, order]);
 
   return loading ? (
     <Center>
@@ -89,53 +87,63 @@ useEffect(()=>{
     </Center>
   ) : (
     <Box>
-    <Box
-      className="container"
-      display="flex"
-      justifyContent="space-evenly"
-      boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
-      w="85%"
-      margin="auto"
-      mt="30px"
-      mb='30px'
-      p='25px'
-    >
-      <Box className="left-cont" w="30%" h='250px'  p='20px' boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px" >
-      <Center fontWeight='bold'>SORT BY PRICE</Center> 
-           <Center>
-          <Select
-            variant="filled"
-            placeholder="Select one"
-            onChange={handleSort}
-          >
-            <option value="asc">Low to High</option>
-            <option value="desc">High to Low</option>
-          </Select>
-          </Center>
-      </Box>
       <Box
-        className="right-cont"
-        w="65%"
-        display="grid"
-        gridTemplateColumns="repeat(3,1fr)"
-        gap="20px"
+        className="container"
+        display="flex"
+        justifyContent="space-evenly"
+        boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
+        w="85%"
+        margin="auto"
+        mt="30px"
+        mb="30px"
+        p="25px"
       >
-        {massage.map((i) => (
-          <NavLink to={`/sleep/${i.id}`}>
-            {" "}
-            <Box h="400px" boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px" p="20px">
-              <Image w="350px" src={i.url} />
-              <Text>{i.title}</Text>
-              <Text>₹ {i.price}</Text>
-              <Text color="green">{i.del}</Text>
-            </Box>
-          </NavLink>
-        ))}
+        <Box
+          className="left-cont"
+          w="30%"
+          h="250px"
+          p="20px"
+          boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
+        >
+          <Center fontWeight="bold">SORT BY PRICE</Center>
+          <Center>
+            <Select
+              variant="filled"
+              placeholder="Select one"
+              onChange={handleSort}
+            >
+              <option value="asc">Low to High</option>
+              <option value="desc">High to Low</option>
+            </Select>
+          </Center>
+        </Box>
+        <Box
+          className="right-cont"
+          w="65%"
+          display="grid"
+          gridTemplateColumns="repeat(3,1fr)"
+          gap="20px"
+        >
+          {massage.map((i) => (
+            <NavLink to={`/sleep/${i.id}`}>
+              {" "}
+              <Box
+                h="400px"
+                boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
+                p="20px"
+              >
+                <Image w="350px" src={i.url} />
+                <Text>{i.title}</Text>
+                <Text>₹ {i.price}</Text>
+                <Text color="green">{i.del}</Text>
+              </Box>
+            </NavLink>
+          ))}
+        </Box>
       </Box>
-    </Box>
-    <Box>
-      <Pagination total={total} page={page} handleChange={handleChange} />
-    </Box>
+      <Box>
+        <Pagination total={total} page={page} handleChange={handleChange} />
+      </Box>
     </Box>
   );
 };

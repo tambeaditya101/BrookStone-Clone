@@ -1,15 +1,17 @@
 import React from "react";
 import { Text, Input, Flex, Box, Center } from "@chakra-ui/react";
-import payment from "../components/payment.css"
+import payment from "../components/payment.css";
 import { useNavigate } from "react-router-dom";
 import { useToast } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
 
+let baseURL = `https://brookstone-data.onrender.com`;
+
 function Payment() {
-    const[data,setData] = useState([])
+  const [data, setData] = useState([]);
   const toast = useToast();
   const navigate = useNavigate();
-//   let Price = localStorage.getItem("totalprice");
+  //   let Price = localStorage.getItem("totalprice");
   const handlePay = () => {
     toast({
       position: "top",
@@ -22,12 +24,10 @@ function Payment() {
     navigate("/");
   };
 
-  
-
   let Price = 0;
   const fetchData = async () => {
     try {
-      let get = await fetch(`http://localhost:8080/cart`);
+      let get = await fetch(`${baseURL}/cart`);
       let datas = await get.json();
       setData(datas);
       console.log(datas);
@@ -143,7 +143,7 @@ function Payment() {
             </div>
             <div className="Totalprice">
               <Text as="b" fontSize="xl">
-              ₹ {Price}
+                ₹ {Price}
               </Text>
             </div>
 
