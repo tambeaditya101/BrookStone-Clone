@@ -1,6 +1,6 @@
 import { Box, Image, Text, Center } from "@chakra-ui/react";
 import React from "react";
-import Carousel from "./Carousel.tsx";
+import Carousel from "./Carousel.jsx";
 import WithSubnavigation from "./WithSubnavigation";
 
 import CaptionCarousel from "./CaptionCarousel.tsx";
