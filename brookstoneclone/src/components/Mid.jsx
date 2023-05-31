@@ -1,9 +1,10 @@
 import { Box, Image, Text, Center } from "@chakra-ui/react";
 import React from "react";
-import Carousel from "./Carousel.jsx";
 import WithSubnavigation from "./WithSubnavigation";
 
+import Carousel from "./Carousel.tsx";
 import CaptionCarousel from "./CaptionCarousel.tsx";
+
 function Mid() {
   const styles = {
     border: "1px solid RGBA(0, 0, 0, 0.92)",
@@ -61,6 +62,7 @@ function Mid() {
       img: "https://cdn.shopify.com/s/files/1/0262/2226/4423/files/descarga_14_2400x.webp?v=1652917554",
     },
   ];
+
   const Cards = ({ imga, text }) => {
     return (
       <Box display="flex" flexDirection="column" gap="20px" textAlign="center">
@@ -82,9 +84,7 @@ function Mid() {
           gap="20px"
           mt="30px"
         >
-          <Box w="56%">
-            <Carousel />
-          </Box>
+          <Box w="56%">{<Carousel />}</Box>
           <Box display="flex" flexDirection="column" gap="30px">
             <Box>
               <a href="/wellness">

@@ -20,7 +20,8 @@ const settings = {
 export default function Carousel() {
   // As we have used custom buttons, we need a reference variable to
   // change the state
-  const [slider, setSlider] = (React.useState < Slider) | (null > null);
+  //const [slider, setSlider] = (React.useState < Slider) | (null > null);
+  const [slider, setSlider] = React.useState<Slider | null>(null);
 
   // These are the breakpoints which changes the position of the
   // buttons as the screen size changes
@@ -89,15 +90,18 @@ export default function Carousel() {
       {/* Slider */}
       <Slider {...settings} ref={(slider) => setSlider(slider)}>
         {cards.map((url, index) => (
-          <Box
-            key={index}
-            height={"xl"}
-            position="relative"
-            backgroundPosition="center"
-            backgroundRepeat="no-repeat"
-            backgroundSize="cover"
-            backgroundImage={`url(${url})`}
-          />
+          <a href="/massage">
+            {" "}
+            <Box
+              key={index}
+              height={"xl"}
+              position="relative"
+              backgroundPosition="center"
+              backgroundRepeat="no-repeat"
+              backgroundSize="cover"
+              backgroundImage={`url(${url})`}
+            />
+          </a>
         ))}
       </Slider>
     </Box>
